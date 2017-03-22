@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BlueCAT-POC-1
+  host: BlueCATPOC01
+  disk_quota: 1024M
+  services:
+  - SSO4SAML
